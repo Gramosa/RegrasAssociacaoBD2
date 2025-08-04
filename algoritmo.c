@@ -46,7 +46,6 @@ int main() {
         char *token;
         int item_idx = 0;
         
-        // Separa a linha usando a vírgula como delimitador
         token = strtok(line, ",\n");
         while (token != NULL && item_idx < NUM_ITEMS) {
             // Se o valor for "sim", marca 1 na nossa matriz
